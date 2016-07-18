@@ -38,7 +38,7 @@ KNNLearner
     .. image:: https://raw.githubusercontent.com/kstoeckl/ASX_Machine_Learning/master/KNNLearner/PortfolioForValidationDataForecast%3D2.png
     
     This is the normalized value of a portfolio constructed through
-    KNNLearnerPerformance.py . If it looks to good to be true, that is
+    learnerPerformance.py . If it looks to good to be true, that is
     because it is.
 
     The parameters of this run were:
@@ -51,7 +51,7 @@ KNNLearner
          BAGS=30
          DAILY_VOLUME_VALUE=50000
          FORECAST=2 #days
-    ::
+    
     This run identified a key flaw in algorithm/data. The data retrieved from
     Yahoo Finance contains 'off' data on public holidays, when the market was
     not in session. This incorrect points enabled the alg to make very
