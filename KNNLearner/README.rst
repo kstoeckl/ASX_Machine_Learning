@@ -35,7 +35,7 @@ KNNLearner
         stock if the average daily volume value exceeds this amount.
 
 **Trials:**
-    .. figure:: PortfolioForValidationDataForecast=2.png
+    .. figure:: https://github.com/kstoeckl/ASX_Machine_Learning/blob/master/KNNLearner/PortfolioForValidationDataForecast%3D2.png
         :align: "center"
 
         This is the normalized value of a portfolio constructed through
