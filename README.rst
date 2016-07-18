@@ -39,16 +39,14 @@
 
 	You have two main options on setting up the environment and path.
 
-	Option 1:
-
+	**Option 1:**
 		Navigate to the directory and run $ conda env create
 
 		Alter the environment so that /lib is included in path as in 
 		this `example
 		<http://conda.pydata.org/docs/using/envs.html#saved-environment-variables>`_.
 
-	Option 2:
-
+	**Option 2:**
 		Modify your environment as you see fit, making sure to include
 		/lib in the path.
 
@@ -56,12 +54,12 @@
 	Each Learner at this point as two main scripts, testLearner.py and 
 	learnerPerformance.py
 
-	testLearner.py:
+	**testLearner.py:**
 		When run this script splits the data into two sections an initial 		
 		training segment and a testing segment then runs the Learner with 
 		the parameters set as constants at the top of the script. 
 
-	learnerPerformance.py: 
+	**learnerPerformance.py:** 
 		When run this script splits the data into three sections an initial 
 		training segment, a testing segment and a validation segment. All 
 		symbols in the ASX (excluding some if they don't have a sufficient 
@@ -74,9 +72,9 @@
 	These scripts produce basic performance metrics, order files,
 	portfolios and graphics that can be inspected.
 
-	A basic subset of data of the ASX has been attached (10 year data for 
-	companies with codes in the range of [AAA,CAA) ). To retrieve additional
-	ASX data refer to retrieve.py, this script can be used to
+	A basic subset of data of the ASX has been attached (Approximately 10 years
+	of data for companies with codes in the range of [AAA,CAA) ). To retrieve
+	additional ASX data refer to retrieve.py, this script can be used to
 	retrieve symbols listed in company_codes.csv from Yahoo Finance.
 	You may retrieve a subset of companies by altering company_codes.csv
 	and you may alter the time period of the data retrieved by adjusting the
