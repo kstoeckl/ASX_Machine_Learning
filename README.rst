@@ -5,7 +5,7 @@
 	then be subsequently converted into portfolios, whose relative
 	performances can be measured.
 
-	The data science platform for Python Anaconda was used, drawing
+	The data science platform for Python, Anaconda was used, drawing
 	largely on Pandas and Numpy. Currently only a Kth Nearest Neighbour
 	Regression Learner has been used, however I fully intended to 
 	explore other machine learning algorithms and more general
@@ -14,7 +14,7 @@
 	This project was primarily started for the purpose of learning 
 	and has been on an on-going hobby project since early to mid 2016.
 	This is the reason for the writing of many of my own modules, 
-	however in later versions, may migrate over to using something
+	however in later versions, I may migrate over to using something
 	like pyfolio.
 
 	Once again just re-iterating, this is a hobby project and no actual
@@ -37,7 +37,7 @@
 
 	Clone the Repository.
 
-	You have two main options on setting up the environment and path.
+	You have two main options for setting up the environment and path.
 
 	**Option 1:**
 		Navigate to the directory and run $ conda env create
@@ -56,7 +56,7 @@
 
 	**testLearner.py:**
 		When run this script splits the data into two sections an initial 		
-		training segment and a testing segment then runs the Learner with 
+		training segment and a testing segment, then runs the Learner with 
 		the parameters set as constants at the top of the script. 
 
 	**learnerPerformance.py:** 
