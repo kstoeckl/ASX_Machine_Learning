@@ -35,11 +35,12 @@ KNNLearner
         stock if the average daily volume value exceeds this amount.
 
 **Trials:**
-    ..figure:: PortfolioForValidationDataForecast=2.png
+    .. figure:: PortfolioForValidationDataForecast=2.png
+        :align: "center"
 
-    This is the normalized value of a portfolio constructed through
-    KNNLearnerPerformance.py . If it looks to good to be true, that is
-    because it is.
+        This is the normalized value of a portfolio constructed through
+        KNNLearnerPerformance.py . If it looks to good to be true, that is
+        because it is.
 
     The parameters of this run were:
         | BROKERAGE=0.002
