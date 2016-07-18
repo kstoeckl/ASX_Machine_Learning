@@ -1,0 +1,7 @@
+name: ASXAnalysis
+dependencies:
+  - python=3
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
